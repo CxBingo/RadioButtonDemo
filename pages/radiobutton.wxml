@@ -1,0 +1,34 @@
+<!--pages/radiobutton.wxml-->
+<view class='moneypage'>
+  <view class='count'>
+    <view class='recharge'>
+      <text class='countnum'>{{apaymoney}}</text>
+      <text class='counttext'>充值</text>
+    </view>
+    <text class='countnum'>+</text>
+    <view class='recharge'>
+      <text class='countnum'>{{getmoney}}</text>
+      <text class='counttext'>返现</text>
+    </view>
+    <text class='countnum'>=</text>
+    <view class='recharge'>
+      <text class='countnum'>{{allmoney}}</text>
+      <text class='counttext'>到账</text>
+    </view>
+  </view>
+
+  <view class='moneybtn'>
+    <view class='btnone'>
+      <button class="{{isChecked==1?'btnitemelse':'btnitem'}}" bindtap='btnoneclick' id='1'>{{one}}</button>
+      <button class="{{isChecked==2?'btnitemelse':'btnitem'}}" bindtap='btnoneclick' id='2'>{{two}}</button>
+      <button class="{{isChecked==3?'btnitemelse':'btnitem'}}" bindtap='btnoneclick' id='3'>{{three}}</button>
+    </view>
+
+    <view class='btntwo'>
+      <button class="{{isChecked==4?'btnitemelse':'btnitem'}}" bindtap='btntwoclick' id='4'>{{four}}</button>
+      <button class="{{isChecked==5?'btnitemelse':'btnitem'}}" bindtap='btntwoclick' id='5'>{{five}}</button>
+      <button class='btnitem' bindtap='btntwoclick' id='6'>{{six}}</button>
+    </view>
+
+  </view>
+</view>

@@ -1,0 +1,68 @@
+/* pages/radiobutton.wxss */
+.paymoney {
+  margin-top: 10rpx;
+}
+
+
+.count {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  padding: 50rpx;
+  margin-right: 50rpx;
+  margin-left: 50rpx;
+  border: 1rpx solid rgba(46, 49, 46, 0.144);
+}
+
+.recharge {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.countnum {
+  color: orange;
+}
+
+.counttext {
+  font-size: 20rpx;
+  color: honeydew；;
+}
+
+.moneybtn {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.btnone {
+  margin-top: 10rpx;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+
+.btntwo {
+  margin-top: 10rpx;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+}
+
+.btnitem {
+  margin: 5rpx;
+  font-size: 30rpx;
+  width: 200rpx;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+}
+
+.btnitemelse{
+  color: orange;
+  margin: 5rpx;
+  font-size: 30rpx;
+  width: 200rpx;
+}
